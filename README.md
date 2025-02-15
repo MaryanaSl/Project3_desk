@@ -277,6 +277,8 @@
 
 * Метод Post  в Http-сервисе по приему фото и комментария
 
+![image](https://github.com/user-attachments/assets/1dc3b2dd-2b6e-46f7-b41d-084ad9977760)
+
 ```bsl   
 Функция exchangeDeliveryОтправитьФотоИСтатус(Запрос)
 	

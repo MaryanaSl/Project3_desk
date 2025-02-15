@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c59ab348-a7c8-4608-841b-9c3dc7199ec5">
+  <name>ОбменСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным приложением</value>
+  </synonym>
+  <rootURL>mobile</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="67eadc6e-08db-41b6-9dd7-88d9495d3aad">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="99b7613a-8093-424c-bd15-a80e9856c736">
+      <name>ПроверитьПодключение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверить подключение</value>
+      </synonym>
+      <handler>pingПроверитьПодключение</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="87f0e81f-3b80-49f2-82b4-3fc696c31a21">
+    <name>exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>exchange</value>
+    </synonym>
+    <template>/exchange</template>
+    <methods uuid="1e2aec96-3520-439d-9d20-cf7c0b94ff80">
+      <name>ПолучитьКоличествоЗаказов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить количество заказов</value>
+      </synonym>
+      <handler>exchangeПолучитьКоличествоЗаказов</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="20ca77cb-2f53-4dd3-935b-05dd57736766">
+    <name>exchangeDelivery</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange delivery</value>
+    </synonym>
+    <template>/exchangeDelivery</template>
+    <methods uuid="739d4530-717a-4dc8-b3db-901b847a0821">
+      <name>ПолучитьСписокЗаказов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить список заказов</value>
+      </synonym>
+      <handler>exchangeПолучитьСписокЗаказов</handler>
+    </methods>
+    <methods uuid="5eae1a01-ceb3-4e14-8c79-9cbcba1a1912">
+      <name>ОтправитьФотоИСтатус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправить фото и статус</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exchangeDeliveryОтправитьФотоИСтатус</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

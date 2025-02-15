@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcd9b332-7158-4a58-880f-d69950df8c7b">
+  <producedTypes>
+    <refType typeId="a7292142-6509-4ba4-8b36-7c7f5f209616" valueTypeId="c67c8621-22aa-412c-a58f-9fbbce1e47af"/>
+    <listType typeId="bf901692-e7c2-497f-aa19-88a90366b563" valueTypeId="21998415-d4dd-4d54-9745-e94cab9099ba"/>
+    <managerType typeId="3b8f4022-2044-4cc4-804b-c476be9a211c" valueTypeId="b7fd8bca-3568-44bc-a07b-10fc0ea0dce7"/>
+  </producedTypes>
+  <name>СтатусыДоставок_Доработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы доставок доработка</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b55e8201-5ff1-4bc7-8e47-c54870e3d058">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a65e9e6-b1eb-4d69-89ec-cb4f937a3e4d">
+    <name>ВзятВРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взят в работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9d4f50f-22d5-49d8-a984-30dd43ed893e">
+    <name>ОтклонёнКурьером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён курьером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdafc902-a3a8-4129-974d-13e6d3a603de">
+    <name>ОтклонёнКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07934c2d-471d-4595-86b9-d16fa90f22e5">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
